@@ -20,10 +20,10 @@ The dataset was created by a team of researchers from Qatar University, Doha, Qa
 Before build the new model architecture and fitting it, the earlier steps was to analyse the image dataset that I have on hands, visualizing some images of the three possible pacient conditions (COVID-10, normal and pneumonia) and checking the pixels intensity distribution that affects the training model.
 
 (Screenshot (26).png)
-> Imagens presentes no dataset
+Samples in dataset
 
 (Screenshot (27).png
-> Histogram and Cumulative Distribution Function of pixels from the images above.
+Histogram and Cumulative Distribution Function of pixels from the images above.
 
 Also in the beginning the data was split in test and train folders. The train folder contains the images to fit and validate the model (0.2 was set to validation), finally test folder contains the images that will be used in the final evaluation.
 
