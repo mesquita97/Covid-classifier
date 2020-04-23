@@ -24,10 +24,12 @@ Some samples of dataset
 
 The new classifier obtained these following scores for validation and evaluation, respectively: 
 
-| Accuracy | Val. accuracy |                      (/images/confusion_mat)
+| Accuracy | Val. accuracy |                      
 |----------|---------------|            
 | 0.9870   | 0.9534        |
 | 0.9466   | -             |
 |          |               |
+
+(/images/confusion_mat)
 
 The new model had a good score both in validation and in the test with unseen data, but we can see in confusion matrix that the sensitivity for COVID-19 didn't work so well, probably because the small number of samples from pacients with this virus.
